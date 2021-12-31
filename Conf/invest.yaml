@@ -1,0 +1,60 @@
+-
+  id: login_01
+  title: 管理员登录成功
+  url: member/login
+  method: POST
+  request_data: {"mobile_phone":"#admin#","pwd":"#admin_pwd#"}
+  expect: {"code":0,"msg":"OK"}
+  expre_data: {"admin_member_id":"$..id","admin_token":"$..token"}
+#管理员：13234825738
+-
+  id: loan_add_01
+  title: 管理员加标成功
+  url: loan/add
+  method: POST
+  request_data: {"member_id":"#admin_member_id#","title":"借钱实现财富自由","amount":100,"loan_rate":12.0,"loan_term":3,"loan_date_type":1,"bidding_days":5}
+  expect: {"code":0,"msg":"OK"}
+  expre_data: {"loan_id":"$..id"}
+#member_id： 管理员用户的id
+#loan_id： 项目id
+-
+  id: loan_audit_01
+  title: 管理员审核通过
+  url: loan/audit
+  method: PATCH
+  request_data: {"loan_id":"#loan_id#","approved_or_not": True}
+  expect: {"code":0,"msg":"OK"}
+  expre_data:
+# loan_id： 项目id
+#-
+#  id: login_01
+#  title: 普通用户登录成功
+#  url: member/login
+#  method: POST
+#  request_data: {"mobile_phone": "#mobile_phone#","pwd":"#pwd#"}
+#  expect: {"code":0,"msg":"OK"}
+#  expre_admin_token:
+#  expre_token:  {"member_id":"$..id","token":"$...token"}
+#  expre_data:
+## member_id： 普通用户id
+#-
+#  id: recharge_01
+#  title: 普通用户充值成功
+#  url: member/recharge
+#  method: POST
+#  request_data: {"member_id": "#member_id#","amount": 3000}
+#  expect: {"code":0,"msg":"OK"}
+#  expre_admin_token:
+#  expre_token:
+#  expre_data:
+## member_id：普通用户的id
+#-
+#  id: recharge_01
+#  title: 投资成功
+#  url: member/invest
+#  method: POST
+#  request_data: {"member_id": "#member_id#","load_id":"#loan_id#","amount":1000}
+#  expect: {"code":0,"msg":"OK"}
+#  expre_admin_token:
+#  expre_token:
+#  expre_data:

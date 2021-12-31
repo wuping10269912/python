@@ -1,0 +1,308 @@
+2021-12-20 22:07:47.254 | INFO     | Case.conftest:init:15 - =========================开始执行测试项目=========================
+2021-12-20 22:07:47.257 | INFO     | Case.test_invest:test_loan_audit:56 - ***********************开始执行login_01管理员登录成功测试用例***********************
+2021-12-20 22:07:47.257 | INFO     | Case.test_invest:step_1:36 - 步骤1 ==>> 管理员审核项目
+2021-12-20 22:07:47.258 | INFO     | Common.replace_data:replace_case_by_regular:75 - 正则表达式替换完成之后的请求数据为{'id': 'login_01', 'title': '管理员登录成功', 'url': 'member/login', 'method': 'POST', 'request_data': '{"mobile_phone": "15253084572", "pwd": "12345678"}', 'expect': '{"code": 0, "msg": "OK"}', 'expre_data': '{"admin_member_id": "$..id", "admin_token": "$..token"}'}
+2021-12-20 22:07:47.258 | INFO     | Common.replace_data:replace_case_by_regular:76 - 环境变量为:{'__module__': 'Common.replace_data', '__dict__': <attribute '__dict__' of 'EnvData' objects>, '__weakref__': <attribute '__weakref__' of 'EnvData' objects>, '__doc__': None}
+2021-12-20 22:07:47.258 | INFO     | Common.handle_request:send_request:32 - 开始发起请求：
+2021-12-20 22:07:47.258 | INFO     | Common.handle_request:send_request:33 - 请求头为:{'X-Lemonban-Media-Type': 'lemonban.v2'}
+2021-12-20 22:07:47.258 | INFO     | Common.handle_request:send_request:34 - 请求地址为:http://api.lemonban.com/futureloan/member/login
+2021-12-20 22:07:47.258 | INFO     | Common.handle_request:send_request:35 - 请求数据为:{'mobile_phone': '15253084572', 'pwd': '12345678'}
+2021-12-20 22:07:47.366 | INFO     | Common.handle_request:send_request:78 - 响应数据为200
+2021-12-20 22:07:47.367 | INFO     | Case.test_invest:test_loan_audit:72 - 该用例没有expre_data字段
+2021-12-20 22:07:47.367 | INFO     | Case.test_invest:test_loan_audit:74 - 期望结果为{'code': 0, 'msg': 'OK'}
+2021-12-20 22:07:47.367 | INFO     | Case.test_invest:test_loan_audit:75 - 响应结果为:{'code': 1001, 'msg': '账号信息错误', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2021-12-20 22:07:47.367 | INFO     | Case.test_invest:test_loan_audit:82 - 断言失败
+2021-12-20 22:07:52.457 | INFO     | Case.test_invest:test_loan_audit:56 - ***********************开始执行login_01管理员登录成功测试用例***********************
+2021-12-20 22:07:52.457 | INFO     | Case.test_invest:step_1:36 - 步骤1 ==>> 管理员审核项目
+2021-12-20 22:07:52.458 | INFO     | Common.replace_data:replace_case_by_regular:75 - 正则表达式替换完成之后的请求数据为{'id': 'login_01', 'title': '管理员登录成功', 'url': 'member/login', 'method': 'POST', 'request_data': '{"mobile_phone": "15253084572", "pwd": "12345678"}', 'expect': '{"code": 0, "msg": "OK"}', 'expre_data': '{"admin_member_id": "$..id", "admin_token": "$..token"}'}
+2021-12-20 22:07:52.458 | INFO     | Common.replace_data:replace_case_by_regular:76 - 环境变量为:{'__module__': 'Common.replace_data', '__dict__': <attribute '__dict__' of 'EnvData' objects>, '__weakref__': <attribute '__weakref__' of 'EnvData' objects>, '__doc__': None}
+2021-12-20 22:07:52.458 | INFO     | Common.handle_request:send_request:32 - 开始发起请求：
+2021-12-20 22:07:52.458 | INFO     | Common.handle_request:send_request:33 - 请求头为:{'X-Lemonban-Media-Type': 'lemonban.v2'}
+2021-12-20 22:07:52.458 | INFO     | Common.handle_request:send_request:34 - 请求地址为:http://api.lemonban.com/futureloan/member/login
+2021-12-20 22:07:52.459 | INFO     | Common.handle_request:send_request:35 - 请求数据为:{'mobile_phone': '15253084572', 'pwd': '12345678'}
+2021-12-20 22:07:52.554 | INFO     | Common.handle_request:send_request:78 - 响应数据为200
+2021-12-20 22:07:52.554 | INFO     | Case.test_invest:test_loan_audit:72 - 该用例没有expre_data字段
+2021-12-20 22:07:52.555 | INFO     | Case.test_invest:test_loan_audit:74 - 期望结果为{'code': 0, 'msg': 'OK'}
+2021-12-20 22:07:52.555 | INFO     | Case.test_invest:test_loan_audit:75 - 响应结果为:{'code': 1001, 'msg': '账号信息错误', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2021-12-20 22:07:52.555 | INFO     | Case.test_invest:test_loan_audit:82 - 断言失败
+2021-12-20 22:07:57.568 | INFO     | Case.test_invest:test_loan_audit:56 - ***********************开始执行login_01管理员登录成功测试用例***********************
+2021-12-20 22:07:57.568 | INFO     | Case.test_invest:step_1:36 - 步骤1 ==>> 管理员审核项目
+2021-12-20 22:07:57.568 | INFO     | Common.replace_data:replace_case_by_regular:75 - 正则表达式替换完成之后的请求数据为{'id': 'login_01', 'title': '管理员登录成功', 'url': 'member/login', 'method': 'POST', 'request_data': '{"mobile_phone": "15253084572", "pwd": "12345678"}', 'expect': '{"code": 0, "msg": "OK"}', 'expre_data': '{"admin_member_id": "$..id", "admin_token": "$..token"}'}
+2021-12-20 22:07:57.568 | INFO     | Common.replace_data:replace_case_by_regular:76 - 环境变量为:{'__module__': 'Common.replace_data', '__dict__': <attribute '__dict__' of 'EnvData' objects>, '__weakref__': <attribute '__weakref__' of 'EnvData' objects>, '__doc__': None}
+2021-12-20 22:07:57.569 | INFO     | Common.handle_request:send_request:32 - 开始发起请求：
+2021-12-20 22:07:57.569 | INFO     | Common.handle_request:send_request:33 - 请求头为:{'X-Lemonban-Media-Type': 'lemonban.v2'}
+2021-12-20 22:07:57.569 | INFO     | Common.handle_request:send_request:34 - 请求地址为:http://api.lemonban.com/futureloan/member/login
+2021-12-20 22:07:57.569 | INFO     | Common.handle_request:send_request:35 - 请求数据为:{'mobile_phone': '15253084572', 'pwd': '12345678'}
+2021-12-20 22:09:04.979 | INFO     | Common.handle_request:send_request:78 - 响应数据为200
+2021-12-20 22:09:04.979 | INFO     | Case.test_invest:test_loan_audit:72 - 该用例没有expre_data字段
+2021-12-20 22:09:04.980 | INFO     | Case.test_invest:test_loan_audit:74 - 期望结果为{'code': 0, 'msg': 'OK'}
+2021-12-20 22:09:04.980 | INFO     | Case.test_invest:test_loan_audit:75 - 响应结果为:{'code': 1001, 'msg': '账号信息错误', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2021-12-20 22:09:04.980 | INFO     | Case.test_invest:test_loan_audit:82 - 断言失败
+2021-12-20 22:09:04.988 | INFO     | Case.test_invest:test_loan_audit:56 - ***********************开始执行loan_add_01管理员加标成功测试用例***********************
+2021-12-20 22:09:04.988 | INFO     | Case.test_invest:step_1:36 - 步骤1 ==>> 管理员审核项目
+2021-12-20 22:09:04.989 | INFO     | Common.replace_data:replace_case_by_regular:75 - 正则表达式替换完成之后的请求数据为{'id': 'loan_add_01', 'title': '管理员加标成功', 'url': 'loan/add', 'method': 'POST', 'request_data': '{"member_id": "#admin_member_id#", "title": "\\u501f\\u94b1\\u5b9e\\u73b0\\u8d22\\u5bcc\\u81ea\\u7531", "amount": 100, "loan_rate": 12.0, "loan_term": 3, "loan_date_type": 1, "bidding_days": 5}', 'expect': '{"code": 0, "msg": "OK"}', 'expre_data': '{"loan_id": "$..id"}'}
+2021-12-20 22:09:04.989 | INFO     | Common.replace_data:replace_case_by_regular:76 - 环境变量为:{'__module__': 'Common.replace_data', '__dict__': <attribute '__dict__' of 'EnvData' objects>, '__weakref__': <attribute '__weakref__' of 'EnvData' objects>, '__doc__': None}
+2021-12-20 22:09:04.989 | INFO     | Common.handle_request:send_request:32 - 开始发起请求：
+2021-12-20 22:09:04.989 | INFO     | Common.handle_request:send_request:33 - 请求头为:{'X-Lemonban-Media-Type': 'lemonban.v2'}
+2021-12-20 22:09:04.989 | INFO     | Common.handle_request:send_request:34 - 请求地址为:http://api.lemonban.com/futureloan/loan/add
+2021-12-20 22:09:04.989 | INFO     | Common.handle_request:send_request:35 - 请求数据为:{'member_id': '#admin_member_id#', 'title': '借钱实现财富自由', 'amount': 100, 'loan_rate': 12.0, 'loan_term': 3, 'loan_date_type': 1, 'bidding_days': 5}
+2021-12-20 22:09:05.080 | INFO     | Common.handle_request:send_request:78 - 响应数据为200
+2021-12-20 22:09:05.080 | INFO     | Case.test_invest:test_loan_audit:72 - 该用例没有expre_data字段
+2021-12-20 22:09:05.081 | INFO     | Case.test_invest:test_loan_audit:74 - 期望结果为{'code': 0, 'msg': 'OK'}
+2021-12-20 22:09:05.081 | INFO     | Case.test_invest:test_loan_audit:75 - 响应结果为:{'code': 1003, 'copyright': 'Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved', 'msg': '未授权或token已过期'}
+2021-12-20 22:09:05.081 | INFO     | Case.test_invest:test_loan_audit:82 - 断言失败
+2021-12-20 22:09:10.094 | INFO     | Case.test_invest:test_loan_audit:56 - ***********************开始执行loan_add_01管理员加标成功测试用例***********************
+2021-12-20 22:09:10.096 | INFO     | Case.test_invest:step_1:36 - 步骤1 ==>> 管理员审核项目
+2021-12-20 22:09:10.096 | INFO     | Common.replace_data:replace_case_by_regular:75 - 正则表达式替换完成之后的请求数据为{'id': 'loan_add_01', 'title': '管理员加标成功', 'url': 'loan/add', 'method': 'POST', 'request_data': '{"member_id": "#admin_member_id#", "title": "\\u501f\\u94b1\\u5b9e\\u73b0\\u8d22\\u5bcc\\u81ea\\u7531", "amount": 100, "loan_rate": 12.0, "loan_term": 3, "loan_date_type": 1, "bidding_days": 5}', 'expect': '{"code": 0, "msg": "OK"}', 'expre_data': '{"loan_id": "$..id"}'}
+2021-12-20 22:09:10.097 | INFO     | Common.replace_data:replace_case_by_regular:76 - 环境变量为:{'__module__': 'Common.replace_data', '__dict__': <attribute '__dict__' of 'EnvData' objects>, '__weakref__': <attribute '__weakref__' of 'EnvData' objects>, '__doc__': None}
+2021-12-20 22:09:10.098 | INFO     | Common.handle_request:send_request:32 - 开始发起请求：
+2021-12-20 22:09:10.098 | INFO     | Common.handle_request:send_request:33 - 请求头为:{'X-Lemonban-Media-Type': 'lemonban.v2'}
+2021-12-20 22:09:10.098 | INFO     | Common.handle_request:send_request:34 - 请求地址为:http://api.lemonban.com/futureloan/loan/add
+2021-12-20 22:09:10.098 | INFO     | Common.handle_request:send_request:35 - 请求数据为:{'member_id': '#admin_member_id#', 'title': '借钱实现财富自由', 'amount': 100, 'loan_rate': 12.0, 'loan_term': 3, 'loan_date_type': 1, 'bidding_days': 5}
+2021-12-20 22:09:10.198 | INFO     | Common.handle_request:send_request:78 - 响应数据为200
+2021-12-20 22:09:10.198 | INFO     | Case.test_invest:test_loan_audit:72 - 该用例没有expre_data字段
+2021-12-20 22:09:10.199 | INFO     | Case.test_invest:test_loan_audit:74 - 期望结果为{'code': 0, 'msg': 'OK'}
+2021-12-20 22:09:10.199 | INFO     | Case.test_invest:test_loan_audit:75 - 响应结果为:{'code': 1003, 'copyright': 'Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved', 'msg': '未授权或token已过期'}
+2021-12-20 22:09:10.199 | INFO     | Case.test_invest:test_loan_audit:82 - 断言失败
+2021-12-20 22:09:15.218 | INFO     | Case.test_invest:test_loan_audit:56 - ***********************开始执行loan_add_01管理员加标成功测试用例***********************
+2021-12-20 22:09:15.219 | INFO     | Case.test_invest:step_1:36 - 步骤1 ==>> 管理员审核项目
+2021-12-20 22:09:15.220 | INFO     | Common.replace_data:replace_case_by_regular:75 - 正则表达式替换完成之后的请求数据为{'id': 'loan_add_01', 'title': '管理员加标成功', 'url': 'loan/add', 'method': 'POST', 'request_data': '{"member_id": "#admin_member_id#", "title": "\\u501f\\u94b1\\u5b9e\\u73b0\\u8d22\\u5bcc\\u81ea\\u7531", "amount": 100, "loan_rate": 12.0, "loan_term": 3, "loan_date_type": 1, "bidding_days": 5}', 'expect': '{"code": 0, "msg": "OK"}', 'expre_data': '{"loan_id": "$..id"}'}
+2021-12-20 22:09:15.220 | INFO     | Common.replace_data:replace_case_by_regular:76 - 环境变量为:{'__module__': 'Common.replace_data', '__dict__': <attribute '__dict__' of 'EnvData' objects>, '__weakref__': <attribute '__weakref__' of 'EnvData' objects>, '__doc__': None}
+2021-12-20 22:09:15.221 | INFO     | Common.handle_request:send_request:32 - 开始发起请求：
+2021-12-20 22:09:15.221 | INFO     | Common.handle_request:send_request:33 - 请求头为:{'X-Lemonban-Media-Type': 'lemonban.v2'}
+2021-12-20 22:09:15.221 | INFO     | Common.handle_request:send_request:34 - 请求地址为:http://api.lemonban.com/futureloan/loan/add
+2021-12-20 22:09:15.221 | INFO     | Common.handle_request:send_request:35 - 请求数据为:{'member_id': '#admin_member_id#', 'title': '借钱实现财富自由', 'amount': 100, 'loan_rate': 12.0, 'loan_term': 3, 'loan_date_type': 1, 'bidding_days': 5}
+2021-12-20 22:09:15.323 | INFO     | Common.handle_request:send_request:78 - 响应数据为200
+2021-12-20 22:09:15.323 | INFO     | Case.test_invest:test_loan_audit:72 - 该用例没有expre_data字段
+2021-12-20 22:09:15.324 | INFO     | Case.test_invest:test_loan_audit:74 - 期望结果为{'code': 0, 'msg': 'OK'}
+2021-12-20 22:09:15.324 | INFO     | Case.test_invest:test_loan_audit:75 - 响应结果为:{'code': 1003, 'copyright': 'Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved', 'msg': '未授权或token已过期'}
+2021-12-20 22:09:15.324 | INFO     | Case.test_invest:test_loan_audit:82 - 断言失败
+2021-12-20 22:09:15.333 | INFO     | Case.test_invest:test_loan_audit:56 - ***********************开始执行loan_audit_01管理员审核通过测试用例***********************
+2021-12-20 22:09:15.333 | INFO     | Case.test_invest:step_1:36 - 步骤1 ==>> 管理员审核项目
+2021-12-20 22:09:15.334 | INFO     | Common.replace_data:replace_case_by_regular:75 - 正则表达式替换完成之后的请求数据为{'id': 'loan_audit_01', 'title': '管理员审核通过', 'url': 'loan/audit', 'method': 'PATCH', 'request_data': '{"loan_id": "#loan_id#", "approved_or_not": true}', 'expect': '{"code": 0, "msg": "OK"}', 'expre_data': 'null'}
+2021-12-20 22:09:15.334 | INFO     | Common.replace_data:replace_case_by_regular:76 - 环境变量为:{'__module__': 'Common.replace_data', '__dict__': <attribute '__dict__' of 'EnvData' objects>, '__weakref__': <attribute '__weakref__' of 'EnvData' objects>, '__doc__': None}
+2021-12-20 22:09:15.334 | INFO     | Common.handle_request:send_request:32 - 开始发起请求：
+2021-12-20 22:09:15.334 | INFO     | Common.handle_request:send_request:33 - 请求头为:{'X-Lemonban-Media-Type': 'lemonban.v2'}
+2021-12-20 22:09:15.335 | INFO     | Common.handle_request:send_request:34 - 请求地址为:http://api.lemonban.com/futureloan/loan/audit
+2021-12-20 22:09:15.335 | INFO     | Common.handle_request:send_request:35 - 请求数据为:{'loan_id': '#loan_id#', 'approved_or_not': True}
+2021-12-20 22:09:15.427 | INFO     | Common.handle_request:send_request:78 - 响应数据为200
+2021-12-20 22:09:15.428 | INFO     | Case.test_invest:test_loan_audit:72 - 该用例没有expre_data字段
+2021-12-20 22:09:15.428 | INFO     | Case.test_invest:test_loan_audit:74 - 期望结果为{'code': 0, 'msg': 'OK'}
+2021-12-20 22:09:15.428 | INFO     | Case.test_invest:test_loan_audit:75 - 响应结果为:{'code': 1003, 'copyright': 'Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved', 'msg': '未授权或token已过期'}
+2021-12-20 22:09:15.429 | INFO     | Case.test_invest:test_loan_audit:82 - 断言失败
+2021-12-20 22:09:20.443 | INFO     | Case.test_invest:test_loan_audit:56 - ***********************开始执行loan_audit_01管理员审核通过测试用例***********************
+2021-12-20 22:09:20.444 | INFO     | Case.test_invest:step_1:36 - 步骤1 ==>> 管理员审核项目
+2021-12-20 22:09:20.444 | INFO     | Common.replace_data:replace_case_by_regular:75 - 正则表达式替换完成之后的请求数据为{'id': 'loan_audit_01', 'title': '管理员审核通过', 'url': 'loan/audit', 'method': 'PATCH', 'request_data': '{"loan_id": "#loan_id#", "approved_or_not": true}', 'expect': '{"code": 0, "msg": "OK"}', 'expre_data': 'null'}
+2021-12-20 22:09:20.444 | INFO     | Common.replace_data:replace_case_by_regular:76 - 环境变量为:{'__module__': 'Common.replace_data', '__dict__': <attribute '__dict__' of 'EnvData' objects>, '__weakref__': <attribute '__weakref__' of 'EnvData' objects>, '__doc__': None}
+2021-12-20 22:09:20.444 | INFO     | Common.handle_request:send_request:32 - 开始发起请求：
+2021-12-20 22:09:20.445 | INFO     | Common.handle_request:send_request:33 - 请求头为:{'X-Lemonban-Media-Type': 'lemonban.v2'}
+2021-12-20 22:09:20.445 | INFO     | Common.handle_request:send_request:34 - 请求地址为:http://api.lemonban.com/futureloan/loan/audit
+2021-12-20 22:09:20.445 | INFO     | Common.handle_request:send_request:35 - 请求数据为:{'loan_id': '#loan_id#', 'approved_or_not': True}
+2021-12-20 22:09:20.544 | INFO     | Common.handle_request:send_request:78 - 响应数据为200
+2021-12-20 22:09:20.544 | INFO     | Case.test_invest:test_loan_audit:72 - 该用例没有expre_data字段
+2021-12-20 22:09:20.545 | INFO     | Case.test_invest:test_loan_audit:74 - 期望结果为{'code': 0, 'msg': 'OK'}
+2021-12-20 22:09:20.545 | INFO     | Case.test_invest:test_loan_audit:75 - 响应结果为:{'code': 1003, 'copyright': 'Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved', 'msg': '未授权或token已过期'}
+2021-12-20 22:09:20.545 | INFO     | Case.test_invest:test_loan_audit:82 - 断言失败
+2021-12-20 22:09:25.561 | INFO     | Case.test_invest:test_loan_audit:56 - ***********************开始执行loan_audit_01管理员审核通过测试用例***********************
+2021-12-20 22:09:25.561 | INFO     | Case.test_invest:step_1:36 - 步骤1 ==>> 管理员审核项目
+2021-12-20 22:09:25.562 | INFO     | Common.replace_data:replace_case_by_regular:75 - 正则表达式替换完成之后的请求数据为{'id': 'loan_audit_01', 'title': '管理员审核通过', 'url': 'loan/audit', 'method': 'PATCH', 'request_data': '{"loan_id": "#loan_id#", "approved_or_not": true}', 'expect': '{"code": 0, "msg": "OK"}', 'expre_data': 'null'}
+2021-12-20 22:09:25.562 | INFO     | Common.replace_data:replace_case_by_regular:76 - 环境变量为:{'__module__': 'Common.replace_data', '__dict__': <attribute '__dict__' of 'EnvData' objects>, '__weakref__': <attribute '__weakref__' of 'EnvData' objects>, '__doc__': None}
+2021-12-20 22:09:25.562 | INFO     | Common.handle_request:send_request:32 - 开始发起请求：
+2021-12-20 22:09:25.562 | INFO     | Common.handle_request:send_request:33 - 请求头为:{'X-Lemonban-Media-Type': 'lemonban.v2'}
+2021-12-20 22:09:25.562 | INFO     | Common.handle_request:send_request:34 - 请求地址为:http://api.lemonban.com/futureloan/loan/audit
+2021-12-20 22:09:25.563 | INFO     | Common.handle_request:send_request:35 - 请求数据为:{'loan_id': '#loan_id#', 'approved_or_not': True}
+2021-12-20 22:09:25.657 | INFO     | Common.handle_request:send_request:78 - 响应数据为200
+2021-12-20 22:09:25.657 | INFO     | Case.test_invest:test_loan_audit:72 - 该用例没有expre_data字段
+2021-12-20 22:09:25.658 | INFO     | Case.test_invest:test_loan_audit:74 - 期望结果为{'code': 0, 'msg': 'OK'}
+2021-12-20 22:09:25.658 | INFO     | Case.test_invest:test_loan_audit:75 - 响应结果为:{'code': 1003, 'copyright': 'Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved', 'msg': '未授权或token已过期'}
+2021-12-20 22:09:25.658 | INFO     | Case.test_invest:test_loan_audit:82 - 断言失败
+2021-12-20 22:09:25.665 | INFO     | Case.test_invest:test_invest:93 - ***********************开始执行login_01普通用户登录成功测试用例***********************
+2021-12-20 22:09:25.666 | INFO     | Common.replace_data:replace_case_by_regular:75 - 正则表达式替换完成之后的请求数据为{'id': 'login_01', 'title': '普通用户登录成功', 'url': 'member/login', 'method': 'POST', 'request_data': '{"mobile_phone": "15500000000", "pwd": "12345678"}', 'expect': '{"code": 0, "msg": "OK"}', 'expre_data': '{"member_id": "$..id", "token": "$...token"}'}
+2021-12-20 22:09:25.666 | INFO     | Common.replace_data:replace_case_by_regular:76 - 环境变量为:{'__module__': 'Common.replace_data', '__dict__': <attribute '__dict__' of 'EnvData' objects>, '__weakref__': <attribute '__weakref__' of 'EnvData' objects>, '__doc__': None}
+2021-12-20 22:09:25.667 | INFO     | Common.handle_request:send_request:32 - 开始发起请求：
+2021-12-20 22:09:25.667 | INFO     | Common.handle_request:send_request:33 - 请求头为:{'X-Lemonban-Media-Type': 'lemonban.v2'}
+2021-12-20 22:09:25.667 | INFO     | Common.handle_request:send_request:34 - 请求地址为:http://api.lemonban.com/futureloan/member/login
+2021-12-20 22:09:25.667 | INFO     | Common.handle_request:send_request:35 - 请求数据为:{'mobile_phone': '15500000000', 'pwd': '12345678'}
+2021-12-20 22:09:25.758 | INFO     | Common.handle_request:send_request:78 - 响应数据为200
+2021-12-20 22:09:25.759 | INFO     | Common.replace_data:expre_data_response:47 - 设置环境变量：key:member_id,value:55
+2021-12-20 22:09:25.759 | INFO     | Common.replace_data:expre_data_response:47 - 设置环境变量：key:token,value:eyJhbGciOiJIUzUxMiJ9.eyJtZW1iZXJfaWQiOjU1LCJleHAiOjE2NDAwMDk2NjV9.7DGYs9HFxSbauQEFqUUJow0ZL6yPG5ZuCThlasQCgjEvOMF-pAdA29tCIGLfRF6BH30MV-17jhqpn0EWs0NVUw
+2021-12-20 22:09:25.760 | INFO     | Case.test_invest:test_invest:105 - 环境变量：{'__module__': 'Common.replace_data', '__dict__': <attribute '__dict__' of 'EnvData' objects>, '__weakref__': <attribute '__weakref__' of 'EnvData' objects>, '__doc__': None, 'member_id': '55', 'token': 'eyJhbGciOiJIUzUxMiJ9.eyJtZW1iZXJfaWQiOjU1LCJleHAiOjE2NDAwMDk2NjV9.7DGYs9HFxSbauQEFqUUJow0ZL6yPG5ZuCThlasQCgjEvOMF-pAdA29tCIGLfRF6BH30MV-17jhqpn0EWs0NVUw'}
+2021-12-20 22:09:25.760 | INFO     | Case.test_invest:test_invest:111 - 期望结果为{'code': 0, 'msg': 'OK'}
+2021-12-20 22:09:25.760 | INFO     | Case.test_invest:test_invest:112 - 响应结果为:{'code': 0, 'msg': 'OK', 'data': {'id': 55, 'leave_amount': 740002.12, 'mobile_phone': '15500000000', 'reg_name': '小柠檬', 'reg_time': '2021-12-18 21:58:05.0', 'type': 1, 'token_info': {'token_type': 'Bearer', 'expires_in': '2021-12-20 22:14:25', 'token': 'eyJhbGciOiJIUzUxMiJ9.eyJtZW1iZXJfaWQiOjU1LCJleHAiOjE2NDAwMDk2NjV9.7DGYs9HFxSbauQEFqUUJow0ZL6yPG5ZuCThlasQCgjEvOMF-pAdA29tCIGLfRF6BH30MV-17jhqpn0EWs0NVUw'}}, 'copyright': 'Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2021-12-20 22:09:25.766 | INFO     | Case.test_invest:test_invest:93 - ***********************开始执行recharge_01普通用户充值成功测试用例***********************
+2021-12-20 22:09:25.767 | INFO     | Common.replace_data:replace_case_by_regular:75 - 正则表达式替换完成之后的请求数据为{'id': 'recharge_01', 'title': '普通用户充值成功', 'url': 'member/recharge', 'method': 'POST', 'request_data': '{"member_id": "55", "amount": 100}', 'expect': '{"code": 0, "msg": "OK"}', 'expre_data': 'null'}
+2021-12-20 22:09:25.768 | INFO     | Common.replace_data:replace_case_by_regular:76 - 环境变量为:{'__module__': 'Common.replace_data', '__dict__': <attribute '__dict__' of 'EnvData' objects>, '__weakref__': <attribute '__weakref__' of 'EnvData' objects>, '__doc__': None, 'member_id': '55', 'token': 'eyJhbGciOiJIUzUxMiJ9.eyJtZW1iZXJfaWQiOjU1LCJleHAiOjE2NDAwMDk2NjV9.7DGYs9HFxSbauQEFqUUJow0ZL6yPG5ZuCThlasQCgjEvOMF-pAdA29tCIGLfRF6BH30MV-17jhqpn0EWs0NVUw'}
+2021-12-20 22:09:25.770 | INFO     | Common.handle_request:send_request:32 - 开始发起请求：
+2021-12-20 22:09:25.771 | INFO     | Common.handle_request:send_request:33 - 请求头为:{'X-Lemonban-Media-Type': 'lemonban.v2', 'Authorization': 'Bearer eyJhbGciOiJIUzUxMiJ9.eyJtZW1iZXJfaWQiOjU1LCJleHAiOjE2NDAwMDk2NjV9.7DGYs9HFxSbauQEFqUUJow0ZL6yPG5ZuCThlasQCgjEvOMF-pAdA29tCIGLfRF6BH30MV-17jhqpn0EWs0NVUw'}
+2021-12-20 22:09:25.771 | INFO     | Common.handle_request:send_request:34 - 请求地址为:http://api.lemonban.com/futureloan/member/recharge
+2021-12-20 22:09:25.771 | INFO     | Common.handle_request:send_request:35 - 请求数据为:{'member_id': '55', 'amount': 100}
+2021-12-20 22:09:25.871 | INFO     | Common.handle_request:send_request:78 - 响应数据为200
+2021-12-20 22:09:25.872 | INFO     | Case.test_invest:test_invest:109 - 该用例没有expre_data字段
+2021-12-20 22:09:25.872 | INFO     | Case.test_invest:test_invest:111 - 期望结果为{'code': 0, 'msg': 'OK'}
+2021-12-20 22:09:25.873 | INFO     | Case.test_invest:test_invest:112 - 响应结果为:{'code': 0, 'msg': 'OK', 'data': {'id': 55, 'leave_amount': 740102.12, 'mobile_phone': '15500000000', 'reg_name': '小柠檬', 'reg_time': '2021-12-18 21:58:05.0', 'type': 1}, 'copyright': 'Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2021-12-20 22:09:25.876 | INFO     | Case.test_invest:test_invest:93 - ***********************开始执行recharge_01投资成功测试用例***********************
+2021-12-20 22:09:25.877 | INFO     | Common.replace_data:replace_case_by_regular:75 - 正则表达式替换完成之后的请求数据为{'id': 'recharge_01', 'title': '投资成功', 'url': 'member/invest', 'method': 'POST', 'request_data': '{"member_id": "55", "load_id": "#loan_id#", "amount": 100}', 'expect': '{"code": 0, "msg": "OK"}', 'expre_data': 'null'}
+2021-12-20 22:09:25.877 | INFO     | Common.replace_data:replace_case_by_regular:76 - 环境变量为:{'__module__': 'Common.replace_data', '__dict__': <attribute '__dict__' of 'EnvData' objects>, '__weakref__': <attribute '__weakref__' of 'EnvData' objects>, '__doc__': None, 'member_id': '55', 'token': 'eyJhbGciOiJIUzUxMiJ9.eyJtZW1iZXJfaWQiOjU1LCJleHAiOjE2NDAwMDk2NjV9.7DGYs9HFxSbauQEFqUUJow0ZL6yPG5ZuCThlasQCgjEvOMF-pAdA29tCIGLfRF6BH30MV-17jhqpn0EWs0NVUw'}
+2021-12-20 22:09:25.878 | INFO     | Common.handle_request:send_request:32 - 开始发起请求：
+2021-12-20 22:09:25.878 | INFO     | Common.handle_request:send_request:33 - 请求头为:{'X-Lemonban-Media-Type': 'lemonban.v2', 'Authorization': 'Bearer eyJhbGciOiJIUzUxMiJ9.eyJtZW1iZXJfaWQiOjU1LCJleHAiOjE2NDAwMDk2NjV9.7DGYs9HFxSbauQEFqUUJow0ZL6yPG5ZuCThlasQCgjEvOMF-pAdA29tCIGLfRF6BH30MV-17jhqpn0EWs0NVUw'}
+2021-12-20 22:09:25.878 | INFO     | Common.handle_request:send_request:34 - 请求地址为:http://api.lemonban.com/futureloan/member/invest
+2021-12-20 22:09:25.878 | INFO     | Common.handle_request:send_request:35 - 请求数据为:{'member_id': '55', 'load_id': '#loan_id#', 'amount': 100}
+2021-12-20 22:09:25.970 | INFO     | Common.handle_request:send_request:78 - 响应数据为200
+2021-12-20 22:09:25.970 | INFO     | Case.test_invest:test_invest:109 - 该用例没有expre_data字段
+2021-12-20 22:09:25.970 | INFO     | Case.test_invest:test_invest:111 - 期望结果为{'code': 0, 'msg': 'OK'}
+2021-12-20 22:09:25.971 | INFO     | Case.test_invest:test_invest:112 - 响应结果为:{'code': 1, 'msg': '项目id为空', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2021-12-20 22:09:25.971 | INFO     | Case.test_invest:test_invest:119 - 断言失败
+2021-12-20 22:09:25.979 | INFO     | Case.conftest:init:17 - 环境变量：{'__module__': 'Common.replace_data', '__dict__': <attribute '__dict__' of 'EnvData' objects>, '__weakref__': <attribute '__weakref__' of 'EnvData' objects>, '__doc__': None, 'member_id': '55', 'token': 'eyJhbGciOiJIUzUxMiJ9.eyJtZW1iZXJfaWQiOjU1LCJleHAiOjE2NDAwMDk2NjV9.7DGYs9HFxSbauQEFqUUJow0ZL6yPG5ZuCThlasQCgjEvOMF-pAdA29tCIGLfRF6BH30MV-17jhqpn0EWs0NVUw'}
+2021-12-20 22:09:25.980 | INFO     | Case.conftest:init:18 - =========================测试项目执行完毕=========================
+2021-12-20 22:09:31.034 | INFO     | Case.conftest:init:15 - =========================开始执行测试项目=========================
+2021-12-20 22:09:31.035 | INFO     | Case.test_invest:test_invest:93 - ***********************开始执行recharge_01投资成功测试用例***********************
+2021-12-20 22:09:31.035 | INFO     | Common.replace_data:replace_case_by_regular:75 - 正则表达式替换完成之后的请求数据为{'id': 'recharge_01', 'title': '投资成功', 'url': 'member/invest', 'method': 'POST', 'request_data': '{"member_id": "55", "load_id": "#loan_id#", "amount": 100}', 'expect': '{"code": 0, "msg": "OK"}', 'expre_data': 'null'}
+2021-12-20 22:09:31.036 | INFO     | Common.replace_data:replace_case_by_regular:76 - 环境变量为:{'__module__': 'Common.replace_data', '__dict__': <attribute '__dict__' of 'EnvData' objects>, '__weakref__': <attribute '__weakref__' of 'EnvData' objects>, '__doc__': None, 'member_id': '55', 'token': 'eyJhbGciOiJIUzUxMiJ9.eyJtZW1iZXJfaWQiOjU1LCJleHAiOjE2NDAwMDk2NjV9.7DGYs9HFxSbauQEFqUUJow0ZL6yPG5ZuCThlasQCgjEvOMF-pAdA29tCIGLfRF6BH30MV-17jhqpn0EWs0NVUw'}
+2021-12-20 22:09:31.037 | INFO     | Common.handle_request:send_request:32 - 开始发起请求：
+2021-12-20 22:09:31.037 | INFO     | Common.handle_request:send_request:33 - 请求头为:{'X-Lemonban-Media-Type': 'lemonban.v2', 'Authorization': 'Bearer eyJhbGciOiJIUzUxMiJ9.eyJtZW1iZXJfaWQiOjU1LCJleHAiOjE2NDAwMDk2NjV9.7DGYs9HFxSbauQEFqUUJow0ZL6yPG5ZuCThlasQCgjEvOMF-pAdA29tCIGLfRF6BH30MV-17jhqpn0EWs0NVUw'}
+2021-12-20 22:09:31.038 | INFO     | Common.handle_request:send_request:34 - 请求地址为:http://api.lemonban.com/futureloan/member/invest
+2021-12-20 22:09:31.038 | INFO     | Common.handle_request:send_request:35 - 请求数据为:{'member_id': '55', 'load_id': '#loan_id#', 'amount': 100}
+2021-12-20 22:09:31.140 | INFO     | Common.handle_request:send_request:78 - 响应数据为200
+2021-12-20 22:09:31.141 | INFO     | Case.test_invest:test_invest:109 - 该用例没有expre_data字段
+2021-12-20 22:09:31.141 | INFO     | Case.test_invest:test_invest:111 - 期望结果为{'code': 0, 'msg': 'OK'}
+2021-12-20 22:09:31.141 | INFO     | Case.test_invest:test_invest:112 - 响应结果为:{'code': 1, 'msg': '项目id为空', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2021-12-20 22:09:31.142 | INFO     | Case.test_invest:test_invest:119 - 断言失败
+2021-12-20 22:09:31.150 | INFO     | Case.conftest:init:17 - 环境变量：{'__module__': 'Common.replace_data', '__dict__': <attribute '__dict__' of 'EnvData' objects>, '__weakref__': <attribute '__weakref__' of 'EnvData' objects>, '__doc__': None, 'member_id': '55', 'token': 'eyJhbGciOiJIUzUxMiJ9.eyJtZW1iZXJfaWQiOjU1LCJleHAiOjE2NDAwMDk2NjV9.7DGYs9HFxSbauQEFqUUJow0ZL6yPG5ZuCThlasQCgjEvOMF-pAdA29tCIGLfRF6BH30MV-17jhqpn0EWs0NVUw'}
+2021-12-20 22:09:31.151 | INFO     | Case.conftest:init:18 - =========================测试项目执行完毕=========================
+2021-12-20 22:09:36.191 | INFO     | Case.conftest:init:15 - =========================开始执行测试项目=========================
+2021-12-20 22:09:36.192 | INFO     | Case.test_invest:test_invest:93 - ***********************开始执行recharge_01投资成功测试用例***********************
+2021-12-20 22:09:36.192 | INFO     | Common.replace_data:replace_case_by_regular:75 - 正则表达式替换完成之后的请求数据为{'id': 'recharge_01', 'title': '投资成功', 'url': 'member/invest', 'method': 'POST', 'request_data': '{"member_id": "55", "load_id": "#loan_id#", "amount": 100}', 'expect': '{"code": 0, "msg": "OK"}', 'expre_data': 'null'}
+2021-12-20 22:09:36.192 | INFO     | Common.replace_data:replace_case_by_regular:76 - 环境变量为:{'__module__': 'Common.replace_data', '__dict__': <attribute '__dict__' of 'EnvData' objects>, '__weakref__': <attribute '__weakref__' of 'EnvData' objects>, '__doc__': None, 'member_id': '55', 'token': 'eyJhbGciOiJIUzUxMiJ9.eyJtZW1iZXJfaWQiOjU1LCJleHAiOjE2NDAwMDk2NjV9.7DGYs9HFxSbauQEFqUUJow0ZL6yPG5ZuCThlasQCgjEvOMF-pAdA29tCIGLfRF6BH30MV-17jhqpn0EWs0NVUw'}
+2021-12-20 22:09:36.192 | INFO     | Common.handle_request:send_request:32 - 开始发起请求：
+2021-12-20 22:09:36.193 | INFO     | Common.handle_request:send_request:33 - 请求头为:{'X-Lemonban-Media-Type': 'lemonban.v2', 'Authorization': 'Bearer eyJhbGciOiJIUzUxMiJ9.eyJtZW1iZXJfaWQiOjU1LCJleHAiOjE2NDAwMDk2NjV9.7DGYs9HFxSbauQEFqUUJow0ZL6yPG5ZuCThlasQCgjEvOMF-pAdA29tCIGLfRF6BH30MV-17jhqpn0EWs0NVUw'}
+2021-12-20 22:09:36.193 | INFO     | Common.handle_request:send_request:34 - 请求地址为:http://api.lemonban.com/futureloan/member/invest
+2021-12-20 22:09:36.193 | INFO     | Common.handle_request:send_request:35 - 请求数据为:{'member_id': '55', 'load_id': '#loan_id#', 'amount': 100}
+2021-12-20 22:09:36.288 | INFO     | Common.handle_request:send_request:78 - 响应数据为200
+2021-12-20 22:09:36.288 | INFO     | Case.test_invest:test_invest:109 - 该用例没有expre_data字段
+2021-12-20 22:09:36.289 | INFO     | Case.test_invest:test_invest:111 - 期望结果为{'code': 0, 'msg': 'OK'}
+2021-12-20 22:09:36.289 | INFO     | Case.test_invest:test_invest:112 - 响应结果为:{'code': 1, 'msg': '项目id为空', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2021-12-20 22:09:36.289 | INFO     | Case.test_invest:test_invest:119 - 断言失败
+2021-12-20 22:09:36.294 | INFO     | Case.conftest:init:17 - 环境变量：{'__module__': 'Common.replace_data', '__dict__': <attribute '__dict__' of 'EnvData' objects>, '__weakref__': <attribute '__weakref__' of 'EnvData' objects>, '__doc__': None, 'member_id': '55', 'token': 'eyJhbGciOiJIUzUxMiJ9.eyJtZW1iZXJfaWQiOjU1LCJleHAiOjE2NDAwMDk2NjV9.7DGYs9HFxSbauQEFqUUJow0ZL6yPG5ZuCThlasQCgjEvOMF-pAdA29tCIGLfRF6BH30MV-17jhqpn0EWs0NVUw'}
+2021-12-20 22:09:36.295 | INFO     | Case.conftest:init:18 - =========================测试项目执行完毕=========================
+2021-12-30 17:16:31.235 | INFO     | Case.conftest:init:15 - {:*^20}开始执行测试项目
+2021-12-30 17:16:31.243 | INFO     | Case.test_invest:test_loan_audit:56 - ***********************开始执行login_01管理员登录成功测试用例***********************
+2021-12-30 17:16:31.243 | INFO     | Case.test_invest:step_1:36 - 步骤1 ==>> 管理员审核项目
+2021-12-30 17:16:31.244 | INFO     | Common.replace_data:replace_case_by_regular:75 - 正则表达式替换完成之后的请求数据为{'id': 'login_01', 'title': '管理员登录成功', 'url': 'member/login', 'method': 'POST', 'request_data': '{"mobile_phone": "15864831865", "pwd": "12345678"}', 'expect': '{"code": 0, "msg": "OK"}', 'expre_data': '{"admin_member_id": "$..id", "admin_token": "$..token"}'}
+2021-12-30 17:16:31.244 | INFO     | Common.replace_data:replace_case_by_regular:76 - 环境变量为:{'__module__': 'Common.replace_data', '__dict__': <attribute '__dict__' of 'EnvData' objects>, '__weakref__': <attribute '__weakref__' of 'EnvData' objects>, '__doc__': None}
+2021-12-30 17:16:31.244 | INFO     | Common.handle_request:send_request:32 - 开始发起请求：
+2021-12-30 17:16:31.244 | INFO     | Common.handle_request:send_request:33 - 请求头为:{'X-Lemonban-Media-Type': 'lemonban.v2'}
+2021-12-30 17:16:31.244 | INFO     | Common.handle_request:send_request:34 - 请求地址为:http://api.lemonban.com/futureloan/member/login
+2021-12-30 17:16:31.245 | INFO     | Common.handle_request:send_request:35 - 请求数据为:{'mobile_phone': '15864831865', 'pwd': '12345678'}
+2021-12-30 17:16:31.352 | INFO     | Common.handle_request:send_request:78 - 响应数据为200
+2021-12-30 17:16:31.353 | INFO     | Common.replace_data:expre_data_response:47 - 设置环境变量：key:admin_member_id,value:2
+2021-12-30 17:16:31.354 | INFO     | Common.replace_data:expre_data_response:47 - 设置环境变量：key:admin_token,value:eyJhbGciOiJIUzUxMiJ9.eyJtZW1iZXJfaWQiOjIsImV4cCI6MTY0MDg1NjA5MX0.4XdTC37QOXHPHHYmlnPQF5xbVnl-lxnpWHb4q3r2S1Zj_iDBzdANgBebT7D8HNaeOtDjcDRPJ7xOTYt-3T_qSg
+2021-12-30 17:16:31.354 | INFO     | Case.test_invest:test_loan_audit:68 - 环境变量：{'__module__': 'Common.replace_data', '__dict__': <attribute '__dict__' of 'EnvData' objects>, '__weakref__': <attribute '__weakref__' of 'EnvData' objects>, '__doc__': None, 'admin_member_id': '2', 'admin_token': 'eyJhbGciOiJIUzUxMiJ9.eyJtZW1iZXJfaWQiOjIsImV4cCI6MTY0MDg1NjA5MX0.4XdTC37QOXHPHHYmlnPQF5xbVnl-lxnpWHb4q3r2S1Zj_iDBzdANgBebT7D8HNaeOtDjcDRPJ7xOTYt-3T_qSg'}
+2021-12-30 17:16:31.354 | INFO     | Case.test_invest:test_loan_audit:74 - 期望结果为{'code': 0, 'msg': 'OK'}
+2021-12-30 17:16:31.354 | INFO     | Case.test_invest:test_loan_audit:75 - 响应结果为:{'code': 0, 'msg': 'OK', 'data': {'id': 2, 'leave_amount': 110.0, 'mobile_phone': '15864831865', 'reg_name': '小柠檬2', 'reg_time': '2021-12-24 20:01:02.0', 'type': 0, 'token_info': {'token_type': 'Bearer', 'expires_in': '2021-12-30 17:21:31', 'token': 'eyJhbGciOiJIUzUxMiJ9.eyJtZW1iZXJfaWQiOjIsImV4cCI6MTY0MDg1NjA5MX0.4XdTC37QOXHPHHYmlnPQF5xbVnl-lxnpWHb4q3r2S1Zj_iDBzdANgBebT7D8HNaeOtDjcDRPJ7xOTYt-3T_qSg'}}, 'copyright': 'Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2021-12-30 17:16:31.358 | INFO     | Case.test_invest:test_loan_audit:56 - ***********************开始执行loan_add_01管理员加标成功测试用例***********************
+2021-12-30 17:16:31.358 | INFO     | Case.test_invest:step_1:36 - 步骤1 ==>> 管理员审核项目
+2021-12-30 17:16:31.358 | INFO     | Common.replace_data:replace_case_by_regular:75 - 正则表达式替换完成之后的请求数据为{'id': 'loan_add_01', 'title': '管理员加标成功', 'url': 'loan/add', 'method': 'POST', 'request_data': '{"member_id": "2", "title": "\\u501f\\u94b1\\u5b9e\\u73b0\\u8d22\\u5bcc\\u81ea\\u7531", "amount": 100, "loan_rate": 12.0, "loan_term": 3, "loan_date_type": 1, "bidding_days": 5}', 'expect': '{"code": 0, "msg": "OK"}', 'expre_data': '{"loan_id": "$..id"}'}
+2021-12-30 17:16:31.359 | INFO     | Common.replace_data:replace_case_by_regular:76 - 环境变量为:{'__module__': 'Common.replace_data', '__dict__': <attribute '__dict__' of 'EnvData' objects>, '__weakref__': <attribute '__weakref__' of 'EnvData' objects>, '__doc__': None, 'admin_member_id': '2', 'admin_token': 'eyJhbGciOiJIUzUxMiJ9.eyJtZW1iZXJfaWQiOjIsImV4cCI6MTY0MDg1NjA5MX0.4XdTC37QOXHPHHYmlnPQF5xbVnl-lxnpWHb4q3r2S1Zj_iDBzdANgBebT7D8HNaeOtDjcDRPJ7xOTYt-3T_qSg'}
+2021-12-30 17:16:31.361 | INFO     | Common.handle_request:send_request:32 - 开始发起请求：
+2021-12-30 17:16:31.361 | INFO     | Common.handle_request:send_request:33 - 请求头为:{'X-Lemonban-Media-Type': 'lemonban.v2', 'Authorization': 'Bearer eyJhbGciOiJIUzUxMiJ9.eyJtZW1iZXJfaWQiOjIsImV4cCI6MTY0MDg1NjA5MX0.4XdTC37QOXHPHHYmlnPQF5xbVnl-lxnpWHb4q3r2S1Zj_iDBzdANgBebT7D8HNaeOtDjcDRPJ7xOTYt-3T_qSg'}
+2021-12-30 17:16:31.361 | INFO     | Common.handle_request:send_request:34 - 请求地址为:http://api.lemonban.com/futureloan/loan/add
+2021-12-30 17:16:31.361 | INFO     | Common.handle_request:send_request:35 - 请求数据为:{'member_id': '2', 'title': '借钱实现财富自由', 'amount': 100, 'loan_rate': 12.0, 'loan_term': 3, 'loan_date_type': 1, 'bidding_days': 5}
+2021-12-30 17:16:31.457 | INFO     | Common.handle_request:send_request:78 - 响应数据为200
+2021-12-30 17:16:31.458 | INFO     | Common.replace_data:expre_data_response:47 - 设置环境变量：key:loan_id,value:4342
+2021-12-30 17:16:31.458 | INFO     | Case.test_invest:test_loan_audit:68 - 环境变量：{'__module__': 'Common.replace_data', '__dict__': <attribute '__dict__' of 'EnvData' objects>, '__weakref__': <attribute '__weakref__' of 'EnvData' objects>, '__doc__': None, 'admin_member_id': '2', 'admin_token': 'eyJhbGciOiJIUzUxMiJ9.eyJtZW1iZXJfaWQiOjIsImV4cCI6MTY0MDg1NjA5MX0.4XdTC37QOXHPHHYmlnPQF5xbVnl-lxnpWHb4q3r2S1Zj_iDBzdANgBebT7D8HNaeOtDjcDRPJ7xOTYt-3T_qSg', 'loan_id': '4342'}
+2021-12-30 17:16:31.458 | INFO     | Case.test_invest:test_loan_audit:74 - 期望结果为{'code': 0, 'msg': 'OK'}
+2021-12-30 17:16:31.459 | INFO     | Case.test_invest:test_loan_audit:75 - 响应结果为:{'code': 0, 'msg': 'OK', 'data': {'id': 4342, 'member_id': 2, 'title': '借钱实现财富自由', 'amount': 100.0, 'loan_rate': 12.0, 'loan_term': 3, 'loan_date_type': 1, 'bidding_days': 5, 'create_time': '2021-12-30 17:16:31.0', 'bidding_start_time': None, 'full_time': None, 'status': 1}, 'copyright': 'Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2021-12-30 17:16:31.462 | INFO     | Case.test_invest:test_loan_audit:56 - ***********************开始执行loan_audit_01管理员审核通过测试用例***********************
+2021-12-30 17:16:31.462 | INFO     | Case.test_invest:step_1:36 - 步骤1 ==>> 管理员审核项目
+2021-12-30 17:16:31.463 | INFO     | Common.replace_data:replace_case_by_regular:75 - 正则表达式替换完成之后的请求数据为{'id': 'loan_audit_01', 'title': '管理员审核通过', 'url': 'loan/audit', 'method': 'PATCH', 'request_data': '{"loan_id": "4342", "approved_or_not": true}', 'expect': '{"code": 0, "msg": "OK"}', 'expre_data': 'null'}
+2021-12-30 17:16:31.463 | INFO     | Common.replace_data:replace_case_by_regular:76 - 环境变量为:{'__module__': 'Common.replace_data', '__dict__': <attribute '__dict__' of 'EnvData' objects>, '__weakref__': <attribute '__weakref__' of 'EnvData' objects>, '__doc__': None, 'admin_member_id': '2', 'admin_token': 'eyJhbGciOiJIUzUxMiJ9.eyJtZW1iZXJfaWQiOjIsImV4cCI6MTY0MDg1NjA5MX0.4XdTC37QOXHPHHYmlnPQF5xbVnl-lxnpWHb4q3r2S1Zj_iDBzdANgBebT7D8HNaeOtDjcDRPJ7xOTYt-3T_qSg', 'loan_id': '4342'}
+2021-12-30 17:16:31.463 | INFO     | Common.handle_request:send_request:32 - 开始发起请求：
+2021-12-30 17:16:31.464 | INFO     | Common.handle_request:send_request:33 - 请求头为:{'X-Lemonban-Media-Type': 'lemonban.v2', 'Authorization': 'Bearer eyJhbGciOiJIUzUxMiJ9.eyJtZW1iZXJfaWQiOjIsImV4cCI6MTY0MDg1NjA5MX0.4XdTC37QOXHPHHYmlnPQF5xbVnl-lxnpWHb4q3r2S1Zj_iDBzdANgBebT7D8HNaeOtDjcDRPJ7xOTYt-3T_qSg'}
+2021-12-30 17:16:31.464 | INFO     | Common.handle_request:send_request:34 - 请求地址为:http://api.lemonban.com/futureloan/loan/audit
+2021-12-30 17:16:31.464 | INFO     | Common.handle_request:send_request:35 - 请求数据为:{'loan_id': '4342', 'approved_or_not': True}
+2021-12-30 17:16:31.564 | INFO     | Common.handle_request:send_request:78 - 响应数据为200
+2021-12-30 17:16:31.565 | INFO     | Case.test_invest:test_loan_audit:72 - 该用例没有expre_data字段
+2021-12-30 17:16:31.565 | INFO     | Case.test_invest:test_loan_audit:74 - 期望结果为{'code': 0, 'msg': 'OK'}
+2021-12-30 17:16:31.566 | INFO     | Case.test_invest:test_loan_audit:75 - 响应结果为:{'code': 0, 'msg': 'OK', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2021-12-30 17:16:31.571 | INFO     | Case.test_invest:test_invest:93 - ***********************开始执行login_01普通用户登录成功测试用例***********************
+2021-12-30 17:16:31.571 | INFO     | Common.replace_data:replace_case_by_regular:75 - 正则表达式替换完成之后的请求数据为{'id': 'login_01', 'title': '普通用户登录成功', 'url': 'member/login', 'method': 'POST', 'request_data': '{"mobile_phone": "15864831865", "pwd": "12345678"}', 'expect': '{"code": 0, "msg": "OK"}', 'expre_data': '{"member_id": "$..id", "token": "$...token"}'}
+2021-12-30 17:16:31.572 | INFO     | Common.replace_data:replace_case_by_regular:76 - 环境变量为:{'__module__': 'Common.replace_data', '__dict__': <attribute '__dict__' of 'EnvData' objects>, '__weakref__': <attribute '__weakref__' of 'EnvData' objects>, '__doc__': None, 'admin_member_id': '2', 'admin_token': 'eyJhbGciOiJIUzUxMiJ9.eyJtZW1iZXJfaWQiOjIsImV4cCI6MTY0MDg1NjA5MX0.4XdTC37QOXHPHHYmlnPQF5xbVnl-lxnpWHb4q3r2S1Zj_iDBzdANgBebT7D8HNaeOtDjcDRPJ7xOTYt-3T_qSg', 'loan_id': '4342'}
+2021-12-30 17:16:31.572 | INFO     | Common.handle_request:send_request:32 - 开始发起请求：
+2021-12-30 17:16:31.572 | INFO     | Common.handle_request:send_request:33 - 请求头为:{'X-Lemonban-Media-Type': 'lemonban.v2'}
+2021-12-30 17:16:31.572 | INFO     | Common.handle_request:send_request:34 - 请求地址为:http://api.lemonban.com/futureloan/member/login
+2021-12-30 17:16:31.572 | INFO     | Common.handle_request:send_request:35 - 请求数据为:{'mobile_phone': '15864831865', 'pwd': '12345678'}
+2021-12-30 17:16:31.666 | INFO     | Common.handle_request:send_request:78 - 响应数据为200
+2021-12-30 17:16:31.667 | INFO     | Common.replace_data:expre_data_response:47 - 设置环境变量：key:member_id,value:2
+2021-12-30 17:16:31.667 | INFO     | Common.replace_data:expre_data_response:47 - 设置环境变量：key:token,value:eyJhbGciOiJIUzUxMiJ9.eyJtZW1iZXJfaWQiOjIsImV4cCI6MTY0MDg1NjA5MX0.4XdTC37QOXHPHHYmlnPQF5xbVnl-lxnpWHb4q3r2S1Zj_iDBzdANgBebT7D8HNaeOtDjcDRPJ7xOTYt-3T_qSg
+2021-12-30 17:16:31.667 | INFO     | Case.test_invest:test_invest:105 - 环境变量：{'__module__': 'Common.replace_data', '__dict__': <attribute '__dict__' of 'EnvData' objects>, '__weakref__': <attribute '__weakref__' of 'EnvData' objects>, '__doc__': None, 'admin_member_id': '2', 'admin_token': 'eyJhbGciOiJIUzUxMiJ9.eyJtZW1iZXJfaWQiOjIsImV4cCI6MTY0MDg1NjA5MX0.4XdTC37QOXHPHHYmlnPQF5xbVnl-lxnpWHb4q3r2S1Zj_iDBzdANgBebT7D8HNaeOtDjcDRPJ7xOTYt-3T_qSg', 'loan_id': '4342', 'member_id': '2', 'token': 'eyJhbGciOiJIUzUxMiJ9.eyJtZW1iZXJfaWQiOjIsImV4cCI6MTY0MDg1NjA5MX0.4XdTC37QOXHPHHYmlnPQF5xbVnl-lxnpWHb4q3r2S1Zj_iDBzdANgBebT7D8HNaeOtDjcDRPJ7xOTYt-3T_qSg'}
+2021-12-30 17:16:31.667 | INFO     | Case.test_invest:test_invest:111 - 期望结果为{'code': 0, 'msg': 'OK'}
+2021-12-30 17:16:31.668 | INFO     | Case.test_invest:test_invest:112 - 响应结果为:{'code': 0, 'msg': 'OK', 'data': {'id': 2, 'leave_amount': 110.0, 'mobile_phone': '15864831865', 'reg_name': '小柠檬2', 'reg_time': '2021-12-24 20:01:02.0', 'type': 0, 'token_info': {'token_type': 'Bearer', 'expires_in': '2021-12-30 17:21:31', 'token': 'eyJhbGciOiJIUzUxMiJ9.eyJtZW1iZXJfaWQiOjIsImV4cCI6MTY0MDg1NjA5MX0.4XdTC37QOXHPHHYmlnPQF5xbVnl-lxnpWHb4q3r2S1Zj_iDBzdANgBebT7D8HNaeOtDjcDRPJ7xOTYt-3T_qSg'}}, 'copyright': 'Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2021-12-30 17:16:31.671 | INFO     | Case.test_invest:test_invest:93 - ***********************开始执行recharge_01普通用户充值成功测试用例***********************
+2021-12-30 17:16:31.671 | INFO     | Common.replace_data:replace_case_by_regular:75 - 正则表达式替换完成之后的请求数据为{'id': 'recharge_01', 'title': '普通用户充值成功', 'url': 'member/recharge', 'method': 'POST', 'request_data': '{"member_id": "2", "amount": 100}', 'expect': '{"code": 0, "msg": "OK"}', 'expre_data': 'null'}
+2021-12-30 17:16:31.671 | INFO     | Common.replace_data:replace_case_by_regular:76 - 环境变量为:{'__module__': 'Common.replace_data', '__dict__': <attribute '__dict__' of 'EnvData' objects>, '__weakref__': <attribute '__weakref__' of 'EnvData' objects>, '__doc__': None, 'admin_member_id': '2', 'admin_token': 'eyJhbGciOiJIUzUxMiJ9.eyJtZW1iZXJfaWQiOjIsImV4cCI6MTY0MDg1NjA5MX0.4XdTC37QOXHPHHYmlnPQF5xbVnl-lxnpWHb4q3r2S1Zj_iDBzdANgBebT7D8HNaeOtDjcDRPJ7xOTYt-3T_qSg', 'loan_id': '4342', 'member_id': '2', 'token': 'eyJhbGciOiJIUzUxMiJ9.eyJtZW1iZXJfaWQiOjIsImV4cCI6MTY0MDg1NjA5MX0.4XdTC37QOXHPHHYmlnPQF5xbVnl-lxnpWHb4q3r2S1Zj_iDBzdANgBebT7D8HNaeOtDjcDRPJ7xOTYt-3T_qSg'}
+2021-12-30 17:16:31.672 | INFO     | Common.handle_request:send_request:32 - 开始发起请求：
+2021-12-30 17:16:31.672 | INFO     | Common.handle_request:send_request:33 - 请求头为:{'X-Lemonban-Media-Type': 'lemonban.v2', 'Authorization': 'Bearer eyJhbGciOiJIUzUxMiJ9.eyJtZW1iZXJfaWQiOjIsImV4cCI6MTY0MDg1NjA5MX0.4XdTC37QOXHPHHYmlnPQF5xbVnl-lxnpWHb4q3r2S1Zj_iDBzdANgBebT7D8HNaeOtDjcDRPJ7xOTYt-3T_qSg'}
+2021-12-30 17:16:31.672 | INFO     | Common.handle_request:send_request:34 - 请求地址为:http://api.lemonban.com/futureloan/member/recharge
+2021-12-30 17:16:31.673 | INFO     | Common.handle_request:send_request:35 - 请求数据为:{'member_id': '2', 'amount': 100}
+2021-12-30 17:17:40.336 | INFO     | Common.handle_request:send_request:78 - 响应数据为200
+2021-12-30 17:17:40.336 | INFO     | Case.test_invest:test_invest:109 - 该用例没有expre_data字段
+2021-12-30 17:17:40.337 | INFO     | Case.test_invest:test_invest:111 - 期望结果为{'code': 0, 'msg': 'OK'}
+2021-12-30 17:17:40.337 | INFO     | Case.test_invest:test_invest:112 - 响应结果为:{'code': 0, 'msg': 'OK', 'data': {'id': 2, 'leave_amount': 210.0, 'mobile_phone': '15864831865', 'reg_name': '小柠檬2', 'reg_time': '2021-12-24 20:01:02.0', 'type': 0}, 'copyright': 'Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2021-12-30 17:17:40.341 | INFO     | Case.test_invest:test_invest:93 - ***********************开始执行recharge_01投资成功测试用例***********************
+2021-12-30 17:17:40.341 | INFO     | Common.replace_data:replace_case_by_regular:75 - 正则表达式替换完成之后的请求数据为{'id': 'recharge_01', 'title': '投资成功', 'url': 'member/invest', 'method': 'POST', 'request_data': '{"member_id": "2", "load_id": "4342", "amount": 100}', 'expect': '{"code": 0, "msg": "OK"}', 'expre_data': 'null'}
+2021-12-30 17:17:40.342 | INFO     | Common.replace_data:replace_case_by_regular:76 - 环境变量为:{'__module__': 'Common.replace_data', '__dict__': <attribute '__dict__' of 'EnvData' objects>, '__weakref__': <attribute '__weakref__' of 'EnvData' objects>, '__doc__': None, 'admin_member_id': '2', 'admin_token': 'eyJhbGciOiJIUzUxMiJ9.eyJtZW1iZXJfaWQiOjIsImV4cCI6MTY0MDg1NjA5MX0.4XdTC37QOXHPHHYmlnPQF5xbVnl-lxnpWHb4q3r2S1Zj_iDBzdANgBebT7D8HNaeOtDjcDRPJ7xOTYt-3T_qSg', 'loan_id': '4342', 'member_id': '2', 'token': 'eyJhbGciOiJIUzUxMiJ9.eyJtZW1iZXJfaWQiOjIsImV4cCI6MTY0MDg1NjA5MX0.4XdTC37QOXHPHHYmlnPQF5xbVnl-lxnpWHb4q3r2S1Zj_iDBzdANgBebT7D8HNaeOtDjcDRPJ7xOTYt-3T_qSg'}
+2021-12-30 17:17:40.342 | INFO     | Common.handle_request:send_request:32 - 开始发起请求：
+2021-12-30 17:17:40.342 | INFO     | Common.handle_request:send_request:33 - 请求头为:{'X-Lemonban-Media-Type': 'lemonban.v2', 'Authorization': 'Bearer eyJhbGciOiJIUzUxMiJ9.eyJtZW1iZXJfaWQiOjIsImV4cCI6MTY0MDg1NjA5MX0.4XdTC37QOXHPHHYmlnPQF5xbVnl-lxnpWHb4q3r2S1Zj_iDBzdANgBebT7D8HNaeOtDjcDRPJ7xOTYt-3T_qSg'}
+2021-12-30 17:17:40.342 | INFO     | Common.handle_request:send_request:34 - 请求地址为:http://api.lemonban.com/futureloan/member/invest
+2021-12-30 17:17:40.343 | INFO     | Common.handle_request:send_request:35 - 请求数据为:{'member_id': '2', 'load_id': '4342', 'amount': 100}
+2021-12-30 17:17:40.432 | INFO     | Common.handle_request:send_request:78 - 响应数据为200
+2021-12-30 17:17:40.433 | INFO     | Case.test_invest:test_invest:109 - 该用例没有expre_data字段
+2021-12-30 17:17:40.433 | INFO     | Case.test_invest:test_invest:111 - 期望结果为{'code': 0, 'msg': 'OK'}
+2021-12-30 17:17:40.433 | INFO     | Case.test_invest:test_invest:112 - 响应结果为:{'code': 1, 'msg': '项目id为空', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2021-12-30 17:17:40.433 | INFO     | Case.test_invest:test_invest:119 - 断言失败
+2021-12-30 17:17:40.522 | INFO     | Case.conftest:init:17 - 环境变量：{'__module__': 'Common.replace_data', '__dict__': <attribute '__dict__' of 'EnvData' objects>, '__weakref__': <attribute '__weakref__' of 'EnvData' objects>, '__doc__': None, 'admin_member_id': '2', 'admin_token': 'eyJhbGciOiJIUzUxMiJ9.eyJtZW1iZXJfaWQiOjIsImV4cCI6MTY0MDg1NjA5MX0.4XdTC37QOXHPHHYmlnPQF5xbVnl-lxnpWHb4q3r2S1Zj_iDBzdANgBebT7D8HNaeOtDjcDRPJ7xOTYt-3T_qSg', 'loan_id': '4342', 'member_id': '2', 'token': 'eyJhbGciOiJIUzUxMiJ9.eyJtZW1iZXJfaWQiOjIsImV4cCI6MTY0MDg1NjA5MX0.4XdTC37QOXHPHHYmlnPQF5xbVnl-lxnpWHb4q3r2S1Zj_iDBzdANgBebT7D8HNaeOtDjcDRPJ7xOTYt-3T_qSg'}
+2021-12-30 17:17:40.522 | INFO     | Case.conftest:init:18 - =========================测试项目执行完毕=========================
+2021-12-30 17:17:45.533 | INFO     | Case.conftest:init:15 - {:*^20}开始执行测试项目
+2021-12-30 17:17:45.540 | INFO     | Case.test_invest:test_invest:93 - ***********************开始执行recharge_01投资成功测试用例***********************
+2021-12-30 17:17:45.542 | INFO     | Common.replace_data:replace_case_by_regular:75 - 正则表达式替换完成之后的请求数据为{'id': 'recharge_01', 'title': '投资成功', 'url': 'member/invest', 'method': 'POST', 'request_data': '{"member_id": "2", "load_id": "4342", "amount": 100}', 'expect': '{"code": 0, "msg": "OK"}', 'expre_data': 'null'}
+2021-12-30 17:17:45.542 | INFO     | Common.replace_data:replace_case_by_regular:76 - 环境变量为:{'__module__': 'Common.replace_data', '__dict__': <attribute '__dict__' of 'EnvData' objects>, '__weakref__': <attribute '__weakref__' of 'EnvData' objects>, '__doc__': None, 'admin_member_id': '2', 'admin_token': 'eyJhbGciOiJIUzUxMiJ9.eyJtZW1iZXJfaWQiOjIsImV4cCI6MTY0MDg1NjA5MX0.4XdTC37QOXHPHHYmlnPQF5xbVnl-lxnpWHb4q3r2S1Zj_iDBzdANgBebT7D8HNaeOtDjcDRPJ7xOTYt-3T_qSg', 'loan_id': '4342', 'member_id': '2', 'token': 'eyJhbGciOiJIUzUxMiJ9.eyJtZW1iZXJfaWQiOjIsImV4cCI6MTY0MDg1NjA5MX0.4XdTC37QOXHPHHYmlnPQF5xbVnl-lxnpWHb4q3r2S1Zj_iDBzdANgBebT7D8HNaeOtDjcDRPJ7xOTYt-3T_qSg'}
+2021-12-30 17:17:45.550 | INFO     | Common.handle_request:send_request:32 - 开始发起请求：
+2021-12-30 17:17:45.551 | INFO     | Common.handle_request:send_request:33 - 请求头为:{'X-Lemonban-Media-Type': 'lemonban.v2', 'Authorization': 'Bearer eyJhbGciOiJIUzUxMiJ9.eyJtZW1iZXJfaWQiOjIsImV4cCI6MTY0MDg1NjA5MX0.4XdTC37QOXHPHHYmlnPQF5xbVnl-lxnpWHb4q3r2S1Zj_iDBzdANgBebT7D8HNaeOtDjcDRPJ7xOTYt-3T_qSg'}
+2021-12-30 17:17:45.551 | INFO     | Common.handle_request:send_request:34 - 请求地址为:http://api.lemonban.com/futureloan/member/invest
+2021-12-30 17:17:45.552 | INFO     | Common.handle_request:send_request:35 - 请求数据为:{'member_id': '2', 'load_id': '4342', 'amount': 100}
+2021-12-30 17:17:45.679 | INFO     | Common.handle_request:send_request:78 - 响应数据为200
+2021-12-30 17:17:45.680 | INFO     | Case.test_invest:test_invest:109 - 该用例没有expre_data字段
+2021-12-30 17:17:45.680 | INFO     | Case.test_invest:test_invest:111 - 期望结果为{'code': 0, 'msg': 'OK'}
+2021-12-30 17:17:45.680 | INFO     | Case.test_invest:test_invest:112 - 响应结果为:{'code': 1, 'msg': '项目id为空', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2021-12-30 17:17:45.681 | INFO     | Case.test_invest:test_invest:119 - 断言失败
+2021-12-30 17:17:45.699 | INFO     | Case.conftest:init:17 - 环境变量：{'__module__': 'Common.replace_data', '__dict__': <attribute '__dict__' of 'EnvData' objects>, '__weakref__': <attribute '__weakref__' of 'EnvData' objects>, '__doc__': None, 'admin_member_id': '2', 'admin_token': 'eyJhbGciOiJIUzUxMiJ9.eyJtZW1iZXJfaWQiOjIsImV4cCI6MTY0MDg1NjA5MX0.4XdTC37QOXHPHHYmlnPQF5xbVnl-lxnpWHb4q3r2S1Zj_iDBzdANgBebT7D8HNaeOtDjcDRPJ7xOTYt-3T_qSg', 'loan_id': '4342', 'member_id': '2', 'token': 'eyJhbGciOiJIUzUxMiJ9.eyJtZW1iZXJfaWQiOjIsImV4cCI6MTY0MDg1NjA5MX0.4XdTC37QOXHPHHYmlnPQF5xbVnl-lxnpWHb4q3r2S1Zj_iDBzdANgBebT7D8HNaeOtDjcDRPJ7xOTYt-3T_qSg'}
+2021-12-30 17:17:45.700 | INFO     | Case.conftest:init:18 - =========================测试项目执行完毕=========================
+2021-12-30 17:17:50.713 | INFO     | Case.conftest:init:15 - {:*^20}开始执行测试项目
+2021-12-30 17:17:50.720 | INFO     | Case.test_invest:test_invest:93 - ***********************开始执行recharge_01投资成功测试用例***********************
+2021-12-30 17:17:50.721 | INFO     | Common.replace_data:replace_case_by_regular:75 - 正则表达式替换完成之后的请求数据为{'id': 'recharge_01', 'title': '投资成功', 'url': 'member/invest', 'method': 'POST', 'request_data': '{"member_id": "2", "load_id": "4342", "amount": 100}', 'expect': '{"code": 0, "msg": "OK"}', 'expre_data': 'null'}
+2021-12-30 17:17:50.721 | INFO     | Common.replace_data:replace_case_by_regular:76 - 环境变量为:{'__module__': 'Common.replace_data', '__dict__': <attribute '__dict__' of 'EnvData' objects>, '__weakref__': <attribute '__weakref__' of 'EnvData' objects>, '__doc__': None, 'admin_member_id': '2', 'admin_token': 'eyJhbGciOiJIUzUxMiJ9.eyJtZW1iZXJfaWQiOjIsImV4cCI6MTY0MDg1NjA5MX0.4XdTC37QOXHPHHYmlnPQF5xbVnl-lxnpWHb4q3r2S1Zj_iDBzdANgBebT7D8HNaeOtDjcDRPJ7xOTYt-3T_qSg', 'loan_id': '4342', 'member_id': '2', 'token': 'eyJhbGciOiJIUzUxMiJ9.eyJtZW1iZXJfaWQiOjIsImV4cCI6MTY0MDg1NjA5MX0.4XdTC37QOXHPHHYmlnPQF5xbVnl-lxnpWHb4q3r2S1Zj_iDBzdANgBebT7D8HNaeOtDjcDRPJ7xOTYt-3T_qSg'}
+2021-12-30 17:17:50.723 | INFO     | Common.handle_request:send_request:32 - 开始发起请求：
+2021-12-30 17:17:50.725 | INFO     | Common.handle_request:send_request:33 - 请求头为:{'X-Lemonban-Media-Type': 'lemonban.v2', 'Authorization': 'Bearer eyJhbGciOiJIUzUxMiJ9.eyJtZW1iZXJfaWQiOjIsImV4cCI6MTY0MDg1NjA5MX0.4XdTC37QOXHPHHYmlnPQF5xbVnl-lxnpWHb4q3r2S1Zj_iDBzdANgBebT7D8HNaeOtDjcDRPJ7xOTYt-3T_qSg'}
+2021-12-30 17:17:50.728 | INFO     | Common.handle_request:send_request:34 - 请求地址为:http://api.lemonban.com/futureloan/member/invest
+2021-12-30 17:17:50.728 | INFO     | Common.handle_request:send_request:35 - 请求数据为:{'member_id': '2', 'load_id': '4342', 'amount': 100}
+2021-12-30 17:17:50.837 | INFO     | Common.handle_request:send_request:78 - 响应数据为200
+2021-12-30 17:17:50.837 | INFO     | Case.test_invest:test_invest:109 - 该用例没有expre_data字段
+2021-12-30 17:17:50.837 | INFO     | Case.test_invest:test_invest:111 - 期望结果为{'code': 0, 'msg': 'OK'}
+2021-12-30 17:17:50.838 | INFO     | Case.test_invest:test_invest:112 - 响应结果为:{'code': 1, 'msg': '项目id为空', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2021-12-30 17:17:50.838 | INFO     | Case.test_invest:test_invest:119 - 断言失败
+2021-12-30 17:17:50.849 | INFO     | Case.conftest:init:17 - 环境变量：{'__module__': 'Common.replace_data', '__dict__': <attribute '__dict__' of 'EnvData' objects>, '__weakref__': <attribute '__weakref__' of 'EnvData' objects>, '__doc__': None, 'admin_member_id': '2', 'admin_token': 'eyJhbGciOiJIUzUxMiJ9.eyJtZW1iZXJfaWQiOjIsImV4cCI6MTY0MDg1NjA5MX0.4XdTC37QOXHPHHYmlnPQF5xbVnl-lxnpWHb4q3r2S1Zj_iDBzdANgBebT7D8HNaeOtDjcDRPJ7xOTYt-3T_qSg', 'loan_id': '4342', 'member_id': '2', 'token': 'eyJhbGciOiJIUzUxMiJ9.eyJtZW1iZXJfaWQiOjIsImV4cCI6MTY0MDg1NjA5MX0.4XdTC37QOXHPHHYmlnPQF5xbVnl-lxnpWHb4q3r2S1Zj_iDBzdANgBebT7D8HNaeOtDjcDRPJ7xOTYt-3T_qSg'}
+2021-12-30 17:17:50.849 | INFO     | Case.conftest:init:18 - =========================测试项目执行完毕=========================
+2021-12-30 17:17:50.863 | INFO     | Case.conftest:init:15 - {:*^20}开始执行测试项目
+2021-12-30 17:17:50.865 | INFO     | Case.test_login:test_login:29 - 开始执行()login_01测试用例
+2021-12-30 17:17:50.865 | INFO     | Common.replace_data:replace_case_by_regular:75 - 正则表达式替换完成之后的请求数据为{'id': 'login_01', 'title': '登录成功', 'url': 'member/login', 'method': 'POST', 'request_data': '{"mobile_phone": "15864831865", "pwd": "12345678"}', 'expect': '{"code": 0, "msg": "OK"}'}
+2021-12-30 17:17:50.866 | INFO     | Common.replace_data:replace_case_by_regular:76 - 环境变量为:{'__module__': 'Common.replace_data', '__dict__': <attribute '__dict__' of 'EnvData' objects>, '__weakref__': <attribute '__weakref__' of 'EnvData' objects>, '__doc__': None, 'admin_member_id': '2', 'admin_token': 'eyJhbGciOiJIUzUxMiJ9.eyJtZW1iZXJfaWQiOjIsImV4cCI6MTY0MDg1NjA5MX0.4XdTC37QOXHPHHYmlnPQF5xbVnl-lxnpWHb4q3r2S1Zj_iDBzdANgBebT7D8HNaeOtDjcDRPJ7xOTYt-3T_qSg', 'loan_id': '4342', 'member_id': '2', 'token': 'eyJhbGciOiJIUzUxMiJ9.eyJtZW1iZXJfaWQiOjIsImV4cCI6MTY0MDg1NjA5MX0.4XdTC37QOXHPHHYmlnPQF5xbVnl-lxnpWHb4q3r2S1Zj_iDBzdANgBebT7D8HNaeOtDjcDRPJ7xOTYt-3T_qSg'}
+2021-12-30 17:17:50.866 | INFO     | Common.handle_request:send_request:32 - 开始发起请求：
+2021-12-30 17:17:50.867 | INFO     | Common.handle_request:send_request:33 - 请求头为:{'X-Lemonban-Media-Type': 'lemonban.v2'}
+2021-12-30 17:17:50.867 | INFO     | Common.handle_request:send_request:34 - 请求地址为:http://api.lemonban.com/futureloan/member/login
+2021-12-30 17:17:50.867 | INFO     | Common.handle_request:send_request:35 - 请求数据为:{'mobile_phone': '15864831865', 'pwd': '12345678'}
+2021-12-30 17:17:50.982 | INFO     | Common.handle_request:send_request:78 - 响应数据为200
+2021-12-30 17:17:50.983 | INFO     | Case.test_login:test_login:33 - 期望结果为{'code': 0, 'msg': 'OK'}
+2021-12-30 17:17:50.985 | INFO     | Case.test_login:test_login:34 - 响应结果为:{'code': 0, 'msg': 'OK', 'data': {'id': 2, 'leave_amount': 210.0, 'mobile_phone': '15864831865', 'reg_name': '小柠檬2', 'reg_time': '2021-12-24 20:01:02.0', 'type': 0, 'token_info': {'token_type': 'Bearer', 'expires_in': '2021-12-30 17:22:51', 'token': 'eyJhbGciOiJIUzUxMiJ9.eyJtZW1iZXJfaWQiOjIsImV4cCI6MTY0MDg1NjE3MX0.5rpfzlvIzl6nCJAulXTJa50XkEWQFg3IVaempy4hT_P3acy2YaYlmXeRqZUQkPFrp1wd8ETcy_QvsUCOr6eOFg'}}, 'copyright': 'Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2021-12-30 17:17:50.987 | INFO     | Case.test_login:test_login:35 - 用例通过！
+2021-12-30 17:17:50.990 | INFO     | Case.conftest:init:17 - 环境变量：{'__module__': 'Common.replace_data', '__dict__': <attribute '__dict__' of 'EnvData' objects>, '__weakref__': <attribute '__weakref__' of 'EnvData' objects>, '__doc__': None, 'admin_member_id': '2', 'admin_token': 'eyJhbGciOiJIUzUxMiJ9.eyJtZW1iZXJfaWQiOjIsImV4cCI6MTY0MDg1NjA5MX0.4XdTC37QOXHPHHYmlnPQF5xbVnl-lxnpWHb4q3r2S1Zj_iDBzdANgBebT7D8HNaeOtDjcDRPJ7xOTYt-3T_qSg', 'loan_id': '4342', 'member_id': '2', 'token': 'eyJhbGciOiJIUzUxMiJ9.eyJtZW1iZXJfaWQiOjIsImV4cCI6MTY0MDg1NjA5MX0.4XdTC37QOXHPHHYmlnPQF5xbVnl-lxnpWHb4q3r2S1Zj_iDBzdANgBebT7D8HNaeOtDjcDRPJ7xOTYt-3T_qSg'}
+2021-12-30 17:17:50.992 | INFO     | Case.conftest:init:18 - =========================测试项目执行完毕=========================

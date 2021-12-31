@@ -1,0 +1,71 @@
+-
+  id: register_01
+  title: 注册成功
+  url: member/register
+  method: POST
+  request_data: {"mobile_phone": "#register_mobile_phone#","pwd": "#pwd#","type": 1,"reg_name": "小橘子"}
+  expect: {"code": 0,"msg": "OK"}
+
+#-
+#  id: register_02
+#  title: 手机号格式错误
+#  url: member/register
+#  method: POST
+#  request_data: {"mobile_phone": "000","pwd": "#pwd#","type": 1,"reg_name": "小橘子"}
+#  expect: {"code": 2,"msg": "无效的手机格式"}
+#-
+#  id: register_03
+#  title: 手机号为空
+#  url: member/register
+#  method: POST
+#  request_data: {"mobile_phone": ,"pwd": "#pwd#","type": 1,"reg_name": "小橘子"}
+#  expect: {"code": 1, "msg": "手机号为空"}
+#-
+#  id: register_04
+#  title: 账号已存在
+#  url: member/register
+#  method: POST
+#  request_data: {"mobile_phone": "13098971476","pwd": "#pwd#","type": 1,"reg_name": "小橘子"}
+#  expect: {"code": 2,"msg": "账号已存在"}
+#-
+#  id: register_05
+#  title: 密码为空
+#  url: member/register
+#  method: POST
+#  request_data: {"mobile_phone": "13098971476","pwd": ,"type": 1,"reg_name": "小橘子"}
+#  expect: {"code": 1,"msg": "密码为空"}
+#-
+#  id: register_06
+#  title: 密码7位
+#  url: member/register
+#  method: POST
+#  request_data: {"mobile_phone": "#register_mobile_phone#","pwd": "1234567" ,"type": 1,"reg_name": "小橘子"}
+#  expect: { "code": 2,"msg": "密码格式为8到16位"}
+#-
+#  id: register_07
+#  title: 密码17位
+#  url: member/register
+#  method: POST
+#  request_data: {"mobile_phone": "#register_mobile_phone#","pwd": "12345679810111213141516" ,"type": 1,"reg_name": "小橘子"}
+#  expect: { "code": 2,"msg": "密码格式为8到16位"}
+#-
+#  id: register_08
+#  title: 手机号12位
+#  url: member/register
+#  method: POST
+#  request_data: {"mobile_phone": "134565555434","pwd": "#pwd#" ,"type": 1,"reg_name": "小橘子"}
+#  expect: {"code": 2,"msg": "无效的手机格式"}
+#-
+#  id: register_09
+#  title: 手机号为中文
+#  url: member/register
+#  method: POST
+#  request_data: {"mobile_phone": "手机号","pwd": "#pwd#" ,"type": 1,"reg_name": "小橘子"}
+#  expect: {"code": 2,"msg": "无效的手机格式"}
+#-
+#  id: register_10
+#  title: 手机号区号不对
+#  url: member/register
+#  method: POST
+#  request_data: {"mobile_phone": "00966666666","pwd": "#pwd#" ,"type": 1,"reg_name": "小橘子"}
+#  expect: {"code": 2,"msg": "无效的手机格式"}

@@ -1,0 +1,46 @@
+-
+  id: login_01
+  title: 登录成功
+  url: member/login
+  method: POST
+  request_data: {"mobile_phone": "#mobile_phone#","pwd":"#pwd#"}
+  expect: {"code":0,"msg":"OK"}
+
+#-
+#  id: login_02
+#  title: 手机号未注册
+#  url: member/login
+#  method: POST
+#  request_data: {"mobile_phone": "register_mobile_phone","pwd":"#pwd#"}
+#  expect: { "code": 2, "msg": "无效的手机格式"}
+#
+#-
+#  id: login_03
+#  title: 手机号为空
+#  url: member/login
+#  method: POST
+#  request_data: {"mobile_phone": ,"pwd":"#pwd#"}
+#  expect:  {"code": 1,"msg": "手机号码为空"}
+#-
+#  id: login_04
+#  title: 密码错误
+#  url: member/login
+#  method: POST
+#  request_data: {"mobile_phone":"#mobile_phone#" ,"pwd":"111111"}
+#  expect:  {"code": 1001,"msg": "账号信息错误"}
+#-
+#  id: login_05
+#  title: 多参数
+#  url: member/login
+#  method: POST
+#  request_data: {"mobile_phone":"#mobile_phone#" ,"pwd":"#pwd#","test": "回家睡觉"}
+#  expect:  {"code": 1001,"msg": "账号信息错误"}
+#-
+#  id: login_06
+#  title: 少参数
+#  url: member/login
+#  method: POST
+#  request_data: {"mobile_phone":"#mobile_phone#"}
+#  expect:  {"code": 1,"msg": "密码为空"}
+#
+

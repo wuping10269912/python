@@ -1,0 +1,36 @@
+#-
+#  id: register_01
+#  title: 注册成功
+#  url: member/register
+#  method: POST
+#  request_data: {"mobile_phone": "#register_mobile_phone#","pwd": "#pwd#","type": 1,"reg_name": "小橘子"}
+#  expect: {"code": 0,"msg": "OK"}
+#  expre_data:
+#  sql:
+#-
+#  id: login_01
+#  title: 登录成功
+#  url: member/login
+#  method: POST
+#  request_data: {"mobile_phone": "#register_mobile_phone#","pwd":"#pwd#"}
+#  expect: {"code":0,"msg":"OK"}
+#  expre_data: {"member_id": "$.data.id","token": "$...token"}
+##  sql:
+-
+  id: login_01
+  title: 登录成功
+  url: member/login
+  method: POST
+  request_data: {"mobile_phone": "#mobile_phone#","pwd":"#pwd#"}
+  expect: {"code":0,"msg":"OK"}
+  expre_data: {"member_id": "$.data.id","token": "$...token"}
+#  sql:
+-
+  id: recharge_01
+  title: 充值成功
+  url: member/recharge
+  method: POST
+  request_data: {"member_id": "#member_id#","amount": 50}
+  expect: {"code":0,"msg":"OK"}
+#  expre_data:
+  sql: 'select leave_amount from member where mobile_phone= #mobile_phone#'
